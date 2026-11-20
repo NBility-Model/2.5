@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html class="frame" lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+	<title>Bedrijfsplannen opstellen</title>
+
+	<!-- JQUERY -->
+	<script type="text/javascript" src="../../lib/jquery/jquery.min.js"></script>
+	<!-- BOOTSTRAP -->
+	<link type="text/css" rel="stylesheet" href="../../lib/bootstrap/css/bootstrap.min.yeti.css">
+	<script type="text/javascript" src="../../lib/bootstrap/js/bootstrap-3.4.1.min.js"></script>
+	<!-- REPORT SPECIFIC -->
+	<link type="text/css" rel="stylesheet" href="../../css/model.css">
+	<link type="text/css" rel="stylesheet" href="../../css/i18n.css">
+	<script type="text/javascript" src="../../js/frame.js"></script>
+	<script type="text/javascript" src="../../js/imageMapResizer.min.js"></script>
+</head>
+
+<body>
+	<div class="panel panel-default root-panel">
+
+		<div class="panel-heading root-panel-heading">
+            <!-- Name -->
+               <b>Bedrijfsplannen opstellen</b>
+
+            <!-- If a View with Viewpoint -->
+			   (<span class="i18n-elementtype-BusinessFunction"></span>)
+			   <a class="glyphicon glyphicon-info-sign" id="hint-BusinessFunction" target="hint"></a>
+		</div>
+
+		<div class="panel-body root-panel-body">
+		    <!-- If this is a digram model (has children and no bounds) show the image -->
+
+			<div role="tabpanel">
+				<!-- Nav tabs -->
+				<ul class="nav nav-tabs" role="tablist">
+                    <!-- Purpose / Documentation / Content -->
+					   <li role="presentation" class="active"><a href="#documentation" aria-controls="documentation" role="tab" data-toggle="tab" class="i18n-documentation"></a></li>
+
+                    <!-- Properties -->
+                    <li role="presentation"><a href="#properties" aria-controls="properties" role="tab" data-toggle="tab" class="i18n-properties"></a></li>
+
+                    <!-- Analysis -->
+                    	<li role="presentation"><a href="#analysis" aria-controls="analysis" role="tab" data-toggle="tab" class="i18n-analysis"></a></li>
+
+				</ul>
+
+				<!-- Tab panes -->
+				<div class="tab-content">
+					<div role="tabpanel" class="tab-pane active" id="documentation">
+						<div class="convertlinks documentation" style="white-space:pre-wrap">Het vermogen om (meer)jarenplannen op te stellen om de strategie te realiseren.
+.</div>
+					</div>
+					<div role="tabpanel" class="tab-pane" id="properties">
+						<table class="table table-striped table-hover table-condensed">
+							<thead>
+								<tr>
+									<th class="i18n-key"></th>
+									<th class="i18n-value"></th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr><td>Code</td><td class="convertlinks no-margin" style="white-space:pre-wrap">E.1.1.4</td></tr><tr><td>Level</td><td class="convertlinks no-margin" style="white-space:pre-wrap">3</td></tr><tr><td>Name (en)</td><td class="convertlinks no-margin" style="white-space:pre-wrap">Develop business plan</td></tr><tr><td>Documentation (en)</td><td class="convertlinks no-margin" style="white-space:pre-wrap">The ability to draw up (multi-)annual plans to realize the strategy.</td></tr>
+							</tbody>
+						</table>
+					</div>
+					<div role="tabpanel" class="tab-pane" id="analysis">
+						<table class="table table-striped table-hover table-condensed" id="used-in-views">
+							<thead>
+								<tr><th colspan="2" class="i18n-used-in-views" /></tr>
+								<tr>
+									<th class="i18n-name"></th>
+									<th class="i18n-viewpoint"></th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr id="used-in-views-id-2fe5e94e65674d8d80e988fdfee9b85d">
+																	<td><a href="../views/id-2fe5e94e65674d8d80e988fdfee9b85d.html" target="view" title="N3 waardestroom E.A"> N3 waardestroom E.A </a></td>
+																	<td><span class="i18n-viewpoint-" /></td>
+																</tr>
+							</tbody>
+						</table>
+						<table class="table table-striped table-hover table-condensed" id="model-relations">
+							<thead>
+								<tr><th colspan="4" class="i18n-model-relations" /></tr>
+								<tr>
+									<th class="i18n-name"></th>
+									<th class="i18n-type"></th>
+									<th class="i18n-source"></th>
+									<th class="i18n-target"></th>
+								</tr>
+							</thead>
+							<tbody>
+									<tr>
+											<td><a href="../elements/id-d744fb8dd0b54a8fb42cb89dd109f0a9.html" target="element" title=""></a></td>
+											<td><span class="i18n-elementtype-ServingRelationship" /></td>
+											<td><a href="../elements/id-cbc7ce03dc0b475b8d90730660d53c0d.html" target="element"> Bedrijfsplannen opstellen</a></td>
+											<td><a href="../elements/id-f9c3ba04e047466e9c89888b7d3c1068.html" target="element"> Opstellen bedrijfsplannen</a></td>
+										</tr><tr>
+											<td><a href="../elements/id-3d007a4a9864438ab891cbe1eb0681d1.html" target="element" title=""></a></td>
+											<td><span class="i18n-elementtype-AccessRelationship" /></td>
+											<td><a href="../elements/id-cbc7ce03dc0b475b8d90730660d53c0d.html" target="element"> Bedrijfsplannen opstellen</a></td>
+											<td><a href="../elements/id-2cff6302e52f4f5a8b0c23464d904cca.html" target="element"> Bedrijfsplan</a></td>
+										</tr>
+									<tr>
+											<td><a href="../elements/id-77c949ff8c7f49e1b29141494b78ab0e.html" target="element" title=""></a></td>
+											<td><span class="i18n-elementtype-ServingRelationship" /></td>
+											<td><a href="../elements/id-3313df73b5f645cc8a339bc22d9b2fe1.html" target="element"> Financi&#235;n plannen</a></td>
+											<td><a href="../elements/id-cbc7ce03dc0b475b8d90730660d53c0d.html" target="element"> Bedrijfsplannen opstellen</a></td>
+										</tr><tr>
+											<td><a href="../elements/id-1745f0bdbe2d44ceb72c93fb3d513212.html" target="element" title=""></a></td>
+											<td><span class="i18n-elementtype-ServingRelationship" /></td>
+											<td><a href="../elements/id-9cc8eb6f6ed349bc8a7ffb11c961ed1b.html" target="element"> Digitaalproductenportfolio ontwikkelen en beheren</a></td>
+											<td><a href="../elements/id-cbc7ce03dc0b475b8d90730660d53c0d.html" target="element"> Bedrijfsplannen opstellen</a></td>
+										</tr><tr>
+											<td><a href="../elements/id-8ec8646347b9422380c61277fe0539a3.html" target="element" title=""></a></td>
+											<td><span class="i18n-elementtype-ServingRelationship" /></td>
+											<td><a href="../elements/id-c6b36dab816147f3a9cd58bc07751c83.html" target="element"> Medewerkersplannen opstellen en besturen</a></td>
+											<td><a href="../elements/id-cbc7ce03dc0b475b8d90730660d53c0d.html" target="element"> Bedrijfsplannen opstellen</a></td>
+										</tr><tr>
+											<td><a href="../elements/id-4eac7a4bdcc24c07ba9d64cea16ab4ae.html" target="element" title=""></a></td>
+											<td><span class="i18n-elementtype-ServingRelationship" /></td>
+											<td><a href="../elements/id-59dea08f3ff64137846269c9f764adc9.html" target="element"> Goederen en diensten plannen en besturen</a></td>
+											<td><a href="../elements/id-cbc7ce03dc0b475b8d90730660d53c0d.html" target="element"> Bedrijfsplannen opstellen</a></td>
+										</tr>
+							</tbody>
+						</table>
+					</div>
+			  </div>
+			</div>
+		</div>
+	</div>
+	<script type="text/javascript">imageMapResize();</script>
+</body>
+</html>
